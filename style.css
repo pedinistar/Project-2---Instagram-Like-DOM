@@ -75,3 +75,16 @@ i {
   opacity: 0;
   transition: transform 0.3s;
 }
+
+@media (max-width: 425px) {
+  #container {
+    width: 370px;
+  }
+}
+
+@media (max-width: 380px) {
+  #container {
+    width: 300px;
+  }
+}
+
